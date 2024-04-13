@@ -1,0 +1,19 @@
+.text-center{
+    margin-top: 2rem;
+    font-weight: bold;
+
+}
+.group-container{
+    padding: 1rem;
+}
+
+.card-title{
+    text-align: center;
+    color: black;
+}
+.card.h-100:hover {
+    box-shadow: 10px 10px 5px #000000;
+    -moz-box-shadow: 0px 10px 5px #000000;
+    -webkit-box-shadow: 0px 10px 5px #d1d1d1;
+}
+
