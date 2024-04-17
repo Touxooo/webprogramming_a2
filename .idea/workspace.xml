@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
-      <change afterPath="$PROJECT_DIR$/order/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/ordered.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/ordered.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/myaccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/myaccount.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/myprofile/myaccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myprofile/myaccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myprofile/myaccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_us/about_us.css" beforeDir="false" afterPath="$PROJECT_DIR$/about_us/about_us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
     "JavaScript Debug.ordered.html.executor": "Run",
     "JavaScript Debug.userinfo.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/WebProgramming",
     "list.type.of.created.stylesheet": "CSS",
