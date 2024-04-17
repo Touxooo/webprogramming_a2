@@ -1,0 +1,27 @@
+
+#upload-container {
+    text-align: center;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    width: 100%;
+}
+#upload-container:hover {
+    border-color: #999;
+}
+#upload-container input[type="file"] {
+    display: none;
+}
+#upload-container label {
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+}
+#uploaded-image {
+    width: auto; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+}
+
+#
