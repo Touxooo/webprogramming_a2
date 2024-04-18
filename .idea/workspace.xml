@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[ADD] order Page">
-      <change afterPath="$PROJECT_DIR$/contact/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faq/faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/faq/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/order.css" beforeDir="false" afterPath="$PROJECT_DIR$/order/order.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/order.html" afterDir="false" />
-    </list>
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +58,7 @@
     "JavaScript Debug.homepage.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.myaccount.html.executor": "Run",
-    "JavaScript Debug.order.html.executor": "Coverage",
+    "JavaScript Debug.order.html.executor": "Run",
     "JavaScript Debug.ordered.html.executor": "Run",
     "JavaScript Debug.userinfo.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -116,7 +108,7 @@
       <workItem from="1713326102666" duration="1947000" />
       <workItem from="1713335168348" duration="4817000" />
       <workItem from="1713378170956" duration="357000" />
-      <workItem from="1713419011619" duration="6373000" />
+      <workItem from="1713419011619" duration="6679000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -150,7 +142,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713375867578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[ADD] order Page">
+      <option name="closed" value="true" />
+      <created>1713426047124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713426047124</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[ADD] FAQs Page">
+      <option name="closed" value="true" />
+      <created>1713426110382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713426110382</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[ADD] order Page">
+      <option name="closed" value="true" />
+      <created>1713426130129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713426130129</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] USER INFORMATION" />
     <MESSAGE value="[CHANGE] Index with mall_homepage.html, [ADD] Path link" />
-    <option name="LAST_COMMIT_MESSAGE" value="[CHANGE] Index with mall_homepage.html, [ADD] Path link" />
+    <MESSAGE value="[ADD] FAQs Page" />
+    <MESSAGE value="[ADD] order Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] order Page" />
   </component>
 </project>
