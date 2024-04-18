@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="" />
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fees/fees.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fees/fees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +71,7 @@
     "JavaScript Debug.myaccount.html.executor": "Run",
     "JavaScript Debug.order.html.executor": "Run",
     "JavaScript Debug.ordered.html.executor": "Run",
+    "JavaScript Debug.profile.html.executor": "Run",
     "JavaScript Debug.userinfo.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -77,11 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\contact" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\profile" />
       <recent name="C:\Users\ynot\WebstormProjects\webprogramming_a2\src" />
       <recent name="C:\Users\ynot\WebstormProjects\webprogramming_a2\policy" />
-      <recent name="C:\Users\ynot\WebstormProjects\webprogramming_a2" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -108,7 +120,8 @@
       <workItem from="1713326102666" duration="1947000" />
       <workItem from="1713335168348" duration="4817000" />
       <workItem from="1713378170956" duration="357000" />
-      <workItem from="1713419011619" duration="6679000" />
+      <workItem from="1713419011619" duration="7571000" />
+      <workItem from="1713429184878" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -166,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713426130129</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[CHANGE] order Page">
+      <option name="closed" value="true" />
+      <created>1713426419233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713426419233</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +198,7 @@
     <MESSAGE value="[CHANGE] Index with mall_homepage.html, [ADD] Path link" />
     <MESSAGE value="[ADD] FAQs Page" />
     <MESSAGE value="[ADD] order Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] order Page" />
+    <MESSAGE value="[CHANGE] order Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CHANGE] order Page" />
   </component>
 </project>

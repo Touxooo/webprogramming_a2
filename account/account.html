@@ -10,7 +10,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
     >
-    <link rel="stylesheet" href="myaccount.css" type="text/css">
+    <link rel="stylesheet" href="account.css" type="text/css">
     <!-- Bootstrap Datepicker CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
 </head>
@@ -19,7 +19,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../homepage.html">
+            <a class="navbar-brand" href="../mall_homepage.html">
                 <img
                         src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
                         alt="Logo"
@@ -45,6 +45,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account/account.html">My Account</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a
                                 class="nav-link dropdown-toggle"
@@ -67,23 +70,24 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fees</a>
+                        <a class="nav-link" href="fees/fees.html">Fees</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../about_us/about_us.html">About Us</a>
+                        <a class="nav-link" href="about_us/about_us.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
+                        <a class="nav-link" href="faq/faq.html">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact/contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-danger">Logout</button>
+                <button class="btn btn-outline-success">Login</button>
             </div>
         </div>
     </nav>
 </header>
+
 <!-- Make your page inside the main -->
 <main>
     <div class="container mt-5">
@@ -129,7 +133,7 @@
 <!--    Bootstrap Datepicker JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <!--    Script for trigger the Datepicker-->
-    <script src="myaccount.js"></script>
+    <script src="account.js"></script>
 
 </main>
 <!-- Place the footer in every pages -->
