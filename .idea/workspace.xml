@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fees/fees.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fees/fees.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myprofile/myaccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/account/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fees/fees.css" beforeDir="false" afterPath="$PROJECT_DIR$/fees/fees.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fees/fees.html" beforeDir="false" afterPath="$PROJECT_DIR$/fees/fees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about_us.html.executor": "Run",
+    "JavaScript Debug.account.html.executor": "Run",
+    "JavaScript Debug.fees.html.executor": "Run",
     "JavaScript Debug.homepage.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.myaccount.html.executor": "Run",
@@ -83,7 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.build",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,7 +123,7 @@
       <workItem from="1713335168348" duration="4817000" />
       <workItem from="1713378170956" duration="357000" />
       <workItem from="1713419011619" duration="7571000" />
-      <workItem from="1713429184878" duration="521000" />
+      <workItem from="1713429184878" duration="10488000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -187,7 +189,31 @@
       <option name="project" value="LOCAL" />
       <updated>1713426419233</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[CHANGE] order Page">
+      <option name="closed" value="true" />
+      <created>1713429752451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713429752451</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[CHANGE] HEADER LINK">
+      <option name="closed" value="true" />
+      <created>1713429798527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713429798527</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[CHANGE] HEADER LINK All Pages">
+      <option name="closed" value="true" />
+      <created>1713436262770</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713436262770</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +225,8 @@
     <MESSAGE value="[ADD] FAQs Page" />
     <MESSAGE value="[ADD] order Page" />
     <MESSAGE value="[CHANGE] order Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="[CHANGE] order Page" />
+    <MESSAGE value="[CHANGE] HEADER LINK" />
+    <MESSAGE value="[CHANGE] HEADER LINK All Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="[CHANGE] HEADER LINK All Pages" />
   </component>
 </project>
