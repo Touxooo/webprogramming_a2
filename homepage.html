@@ -43,6 +43,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account/account.html">My Account</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a
                                 class="nav-link dropdown-toggle"
@@ -65,19 +68,103 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Fees</a>
+                        <a class="nav-link" href="fees/fees.html">Fees</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about_us/about_us.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
+                        <a class="nav-link" href="faq/faq.html">FAQs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact/contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success">Login</button>
+                <button class="btn btn-outline-success" id="login">Login</button>
+                <div id="loginModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div id="iframeContainer">
+                            <iframe id="loginFrame" src="authentication/login.html" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function closeModal() {
+                        var modal = document.getElementById('loginModal');
+                        modal.style.display = 'none';
+                        var loginFrame = document.getElementById('loginFrame');
+                    loginFrame.src = 'authentication/login.html';
+                    }
+
+                    document.getElementById('login').onclick = function() {
+                        document.getElementById('loginModal').style.display = 'block';
+                    };
+
+                    document.getElementsByClassName('close')[0].addEventListener('click', function() {
+                        closeModal();
+                    });
+
+                    window.onclick = function(event) {
+                    var modal = document.getElementById('loginModal');
+                    if (event.target == modal) {
+                        closeModal();
+                    }
+                    };
+                </script>
+                <style>
+                    .modal {
+                        display: none;
+                        position: fixed;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(0, 0, 0, 0.5);
+                        overflow: auto;
+                    }
+
+                    .modal-content {
+                        background-color: #fefefe;
+                        margin: auto;
+                        padding: 20px;
+                        padding-top: 60px;
+                        border: 1px solid #888;
+                        width: 650px;
+                        height: 400px;
+                        position: relative;
+                        top: 50%;
+                        transform: translateY(-50%)
+                    }
+
+                    .close {
+                        color: #aaa;
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        font-size: 28px;
+                        font-weight: bold;
+                    }
+
+                    .close:hover,
+                    .close:focus {
+                        color:black;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+
+                    #iframeContainer {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    #iframeContainer iframe {
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                    }
+                </style>
             </div>
         </div>
     </nav>

@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.verificationBox {
+    margin-top: 60px;;
+}
+
+.emailVerification > input {
+     width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #E9E9E9;
+}
+
+.emailVerification > button {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    margin-top: 20x;
+    color: white;
+    font-size:16px;
+    background-color: rgb(54, 54, 54);
+}
+
+#verificationInput input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #E9E9E9;
+}
+
+#verificationInput input + input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    margin-top: 20x;
+    color: white;
+    font-size:16px;
+    background-color: rgb(54, 54, 54);
+}
+
+#verificationForm > input::placeholder {
+    color:#adadad;
+}
