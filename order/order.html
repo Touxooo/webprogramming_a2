@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Title</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="order.css" type="text/css">
+</head>
+<body>
+<!-- Place the header in every pages -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../homepage.html">
+                <img
+                        src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
+                        alt="Logo"
+                        width="30"
+                        height="30"
+                        class="d-inline-block align-text-top"
+                />
+                The Amazing Mall
+            </a>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../account/account.html">My Account</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                        >
+                            Browse
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Browse Stores by Name</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"
+                                >Browse Stores by Category</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../fees/fees.html">Fees</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about_us/about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../faq/faq.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../faq/faq.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success">Login</button>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Make your page inside the main -->
+    <main class="page">
+        <section class="shopping-cart dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2>Shopping Cart</h2>
+                    <p>Congratulations on curating your perfect selection! You're just a step away from making these fantastic choices yours.</p>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8">
+                            <div class="items">
+                                <div class="product">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="img-fluid mx-auto d-block image" src="../src/sample_product.jpg" alt="product-1">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <div class="row">
+                                                    <div class="col-md-5 product-name">
+                                                        <div class="product-name">
+                                                            <a href="#">Product 1</a>
+                                                            <div class="product-info">
+                                                                <div>Display: <span class="value">5 inch</span></div>
+                                                                <div>RAM: <span class="value">4GB</span></div>
+                                                                <div>Memory: <span class="value">32GB</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 quantity">
+                                                        <label for="quantity1">Quantity:</label>
+                                                        <input id="quantity1" type="number" value ="1" min="0" class="form-control input-number">
+                                                    </div>
+                                                    <div class="col-md-3 price">
+                                                        <span>$120</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="img-fluid mx-auto d-block image" src="../src/sample_product.jpg" alt="product-2">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <div class="row">
+                                                    <div class="col-md-5 product-name">
+                                                        <div class="product-name">
+                                                            <a href="#">Product 2</a>
+                                                            <div class="product-info">
+                                                                <div>Display: <span class="value">5 inch</span></div>
+                                                                <div>RAM: <span class="value">4GB</span></div>
+                                                                <div>Memory: <span class="value">32GB</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 quantity">
+                                                        <label for="quantity2">Quantity:</label>
+                                                        <input id="quantity2" type="number" value ="1" min="0" class="form-control input-number">
+                                                    </div>
+                                                    <div class="col-md-3 price">
+                                                        <span>$120</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="img-fluid mx-auto d-block image" src="../src/sample_product.jpg" alt="product-3">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="info">
+                                                <div class="row">
+                                                    <div class="col-md-5 product-name">
+                                                        <div class="product-name">
+                                                            <a href="#">Product 3</a>
+                                                            <div class="product-info">
+                                                                <div>Display: <span class="value">5 inch</span></div>
+                                                                <div>RAM: <span class="value">4GB</span></div>
+                                                                <div>Memory: <span class="value">32GB</span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4 quantity">
+                                                        <label for="quantity3">Quantity:</label>
+                                                        <input id="quantity3" type="number" value ="1" min="0" class="form-control input-number">
+                                                    </div>
+                                                    <div class="col-md-3 price">
+                                                        <span>$120</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                            <div class="summary">
+                                <h3>Summary</h3>
+                                <div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
+                                <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
+                                <div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div>
+                                <div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
+                                <a href="payment.html"><button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button></a><br><br>
+                                <a href="../homepage.html"><p>Back To Shopping</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </main>
+<!-- Place the footer in every pages -->
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+            <a href="../policies_center/copyright.html" class="nav-link px-2 text-body-secondary">Copyright</a>
+        </li>
+        <li class="nav-item">
+            <a href="../policies_center/ToS.html" class="nav-link px-2 text-body-secondary"
+            >Terms Of Service</a
+            >
+        </li>
+        <li class="nav-item">
+            <a href="../policies_center/privacy.html" class="nav-link px-2 text-body-secondary"
+            >Privacy Policy</a
+            >
+        </li>
+    </ul>
+    <p class="text-center text-body-secondary">
+        © 2024 The Amazing Mall, Inc
+    </p>
+</footer>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>
