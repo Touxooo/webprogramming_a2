@@ -21,7 +21,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../mall_homepage.html">
+            <a class="navbar-brand" href="../homepage.html">
                 <img
                         src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
                         alt="Logo"
@@ -141,7 +141,7 @@
 
                 <form class="card p-2">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Promo code">
+                        <label><input type="text" class="form-control" placeholder="Promo code"></label>
                         <div class="input-group-append">
                             <button type="submit" class="btn btn-secondary">Redeem</button>
                         </div>
@@ -242,48 +242,54 @@
                             <div class="card">
                                 <div class="card-header p-0" id="headingTwo">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom"
+                                                type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
                                             <div class="d-flex align-items-center justify-content-between">
                                                 <span>Paypal</span>
-                                                <img src="https://i.imgur.com/7kQEsHU.png" width="30">
+                                                <img src="https://i.imgur.com/7kQEsHU.png" width="30" alt="Paypal">
                                             </div>
                                         </button>
                                     </h2>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                     data-parent="#accordionExample">
                                     <div class="card-body">
-                                        <label for="paypal"></label><input type="text" class="form-control" id="paypal" placeholder="Paypal Email" required>
+                                        <label for="paypal"></label><input type="text" class="form-control" id="paypal"
+                                                                           placeholder="Paypal Email" required>
                                         <div class="invalid-feedback">
                                             Paypal Email is required
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="card">
                                 <div class="card-header p-0">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button class="btn btn-light btn-block text-left p-3 rounded-0"
+                                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
                                             <div class="d-flex align-items-center justify-content-between">
 
                                                 <span>Credit card</span>
                                                 <div class="icons">
-                                                    <img src="https://i.imgur.com/2ISgYja.png" width="30">
-                                                    <img src="https://i.imgur.com/W1vtnOV.png" width="30">
-                                                    <img src="https://i.imgur.com/35tC99g.png" width="30">
-                                                    <img src="https://i.imgur.com/2ISgYja.png" width="30">
+                                                    <img src="https://i.imgur.com/2ISgYja.png" width="30" alt="creditcard">
+                                                    <img src="https://i.imgur.com/W1vtnOV.png" width="30" alt="creditcard">
+                                                    <img src="https://i.imgur.com/35tC99g.png" width="30" alt="creditcard">
+                                                    <img src="https://i.imgur.com/2ISgYja.png" width="30" alt="creditcard">
                                                 </div>
 
                                             </div>
                                         </button>
                                     </h2>
                                 </div>
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                     data-parent="#accordionExample">
                                     <div class="card-body payment-card-body">
                                         <span class="font-weight-normal card-text">Card Number</span>
                                         <div class="input">
                                             <i class="fa fa-credit-card"></i>
-                                            <input type="text" class="form-control" id="cc-number" placeholder="0000 0000 0000 0000" required>
+                                            <input type="text" class="form-control" id="cc-number"
+                                                   placeholder="0000 0000 0000 0000" required>
                                             <div class="invalid-feedback">
                                                 Credit card number is required
                                             </div>
@@ -293,7 +299,11 @@
                                                 <span class="font-weight-normal card-text">Expiry Date</span>
                                                 <div class="input">
                                                     <i class="fa fa-calendar"></i>
-                                                    <label for="cc-expiration"></label><input type="text" class="form-control" id="cc-expiration" placeholder="MM/YY" required>
+                                                    <label for="cc-expiration"></label><input type="text"
+                                                                                              class="form-control"
+                                                                                              id="cc-expiration"
+                                                                                              placeholder="MM/YY"
+                                                                                              required>
                                                     <div class="invalid-feedback">
                                                         Expiration date required
                                                     </div>
@@ -303,7 +313,9 @@
                                                 <span class="font-weight-normal card-text">CVC/CVV</span>
                                                 <div class="input">
                                                     <i class="fa fa-lock"></i>
-                                                    <label for="cc-cvv"></label><input type="text" class="form-control" id="cc-cvv" placeholder="000" required>
+                                                    <label for="cc-cvv"></label><input type="text" class="form-control"
+                                                                                       id="cc-cvv" placeholder="000"
+                                                                                       required>
                                                     <div class="invalid-feedback">
                                                         Security code required
                                                     </div>
@@ -314,10 +326,11 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                     <hr class="mb-4">
-                    <a href="ordered.html" class="invalid-feedback"><button class="btn btn-primary btn-lg btn-block" type="button">Confirmation</button></a>
+                    <a href="ordered.html"><button class="btn btn-primary btn-lg btn-block" type="button">Confirmation</button></a>
                 </form>
             </div>
         </div>
