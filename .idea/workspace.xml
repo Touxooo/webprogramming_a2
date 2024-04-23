@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[Add] Add Edit Profile Page &amp; Config Payment Page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/editaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/editaccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/ordered.html" afterDir="false" />
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_17_2024_12_51_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_17_2024_12_51_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2024_12_43_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_18_2024_12_43_AM__Changes_.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2f5UlbFAWaLM6jDrfczKebimFqT" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -97,8 +96,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\Sample" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\Sample" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\order" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\contact" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\profile" />
