@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[Add] Add Edit Profile Page &amp; Config Payment Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fees/fees.css" beforeDir="false" afterPath="$PROJECT_DIR$/fees/fees.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fees/fees.html" beforeDir="false" afterPath="$PROJECT_DIR$/fees/fees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/editaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/editaccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/ordered.html" beforeDir="false" afterPath="$PROJECT_DIR$/order/ordered.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +45,9 @@
     &quot;accountId&quot;: &quot;6dcb23b6-d8dc-49f1-acb9-483eea5b05eb&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/order/order.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -61,41 +59,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.about_us.html.executor": "Run",
-    "JavaScript Debug.account.html.executor": "Run",
-    "JavaScript Debug.fees.html.executor": "Run",
-    "JavaScript Debug.homepage.html.executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.myaccount.html.executor": "Run",
-    "JavaScript Debug.order.html.executor": "Run",
-    "JavaScript Debug.ordered.html.executor": "Run",
-    "JavaScript Debug.profile.html.executor": "Run",
-    "JavaScript Debug.userinfo.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/WebProgramming",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.about_us.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.account.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.editaccount.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.fees.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.homepage.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.login.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.myaccount.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.order.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ordered.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.payment.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.profile.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.register.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.resetpassword.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.userinfo.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.verification.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WebProgramming&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\Sample" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2" />
+      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\order" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\contact" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\profile" />
-      <recent name="C:\Users\ynot\WebstormProjects\webprogramming_a2\src" />
-      <recent name="C:\Users\ynot\WebstormProjects\webprogramming_a2\policy" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -123,7 +129,33 @@
       <workItem from="1713335168348" duration="4817000" />
       <workItem from="1713378170956" duration="357000" />
       <workItem from="1713419011619" duration="7571000" />
-      <workItem from="1713429184878" duration="10488000" />
+      <workItem from="1713429184878" duration="12636000" />
+      <workItem from="1713452772288" duration="15000" />
+      <workItem from="1713452803221" duration="161000" />
+      <workItem from="1713453113197" duration="68000" />
+      <workItem from="1713453362198" duration="50000" />
+      <workItem from="1713453423794" duration="872000" />
+      <workItem from="1713454504494" duration="41000" />
+      <workItem from="1713454582190" duration="287000" />
+      <workItem from="1713489581254" duration="5886000" />
+      <workItem from="1713496712544" duration="3114000" />
+      <workItem from="1713500373745" duration="3059000" />
+      <workItem from="1713507694522" duration="509000" />
+      <workItem from="1713508461404" duration="411000" />
+      <workItem from="1713509052572" duration="18000" />
+      <workItem from="1713509563408" duration="4387000" />
+      <workItem from="1713534026209" duration="4935000" />
+      <workItem from="1713543990140" duration="56000" />
+      <workItem from="1713601453227" duration="2566000" />
+      <workItem from="1713604051348" duration="1385000" />
+      <workItem from="1713751394869" duration="5851000" />
+      <workItem from="1713762687684" duration="10000" />
+      <workItem from="1713762703920" duration="7923000" />
+      <workItem from="1713771061446" duration="1699000" />
+      <workItem from="1713793001249" duration="1237000" />
+      <workItem from="1713831770330" duration="1200000" />
+      <workItem from="1713834738163" duration="359000" />
+      <workItem from="1713835129973" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -213,7 +245,55 @@
       <option name="project" value="LOCAL" />
       <updated>1713436262770</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[CHANGE] HEADER LINK All Pages">
+      <option name="closed" value="true" />
+      <created>1713449415716</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713449415716</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[Add] contact page">
+      <option name="closed" value="true" />
+      <created>1713454019631</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713454019631</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[Add] Fees Page">
+      <option name="closed" value="true" />
+      <created>1713542665724</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713542665724</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[Add] Add Edit Profile Page &amp; Config Payment Page">
+      <option name="closed" value="true" />
+      <created>1713770697010</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713770697010</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[CONFIG]">
+      <option name="closed" value="true" />
+      <created>1713771742426</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713771742426</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[Add] Sample For Review">
+      <option name="closed" value="true" />
+      <created>1713835059742</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713835059742</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +307,11 @@
     <MESSAGE value="[CHANGE] order Page" />
     <MESSAGE value="[CHANGE] HEADER LINK" />
     <MESSAGE value="[CHANGE] HEADER LINK All Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="[CHANGE] HEADER LINK All Pages" />
+    <MESSAGE value="[Add] contact page" />
+    <MESSAGE value="[Add] Fees Page" />
+    <MESSAGE value="[CONFIG]" />
+    <MESSAGE value="[Add] Add Edit Profile Page &amp; Config Payment Page" />
+    <MESSAGE value="[Add] Sample For Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Sample For Review" />
   </component>
 </project>
