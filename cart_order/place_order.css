@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 25pt;
+}
+
+#goBackButton {
+    bottom: 0;
+    padding: 10px 18px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
