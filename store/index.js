@@ -1,21 +1,21 @@
 const getProductHTML = (product) => {
   return `
   <li class="card p-2 g-col-6" style="width: 18rem">
-    <img
-      src="https://m.media-amazon.com/images/I/81rsMys9S8L._AC_UL640_FMwebp_QL65_.jpg"
-      class="card-img-top"
-      alt="monitor image"
-    />
-    <div class="card-body">
-      <h5 class="card-title">
-        KYY Portable Monitor 15.6inch 1080P FHD USB-C
-      </h5>
-      <p class="card-text">
-        HDMI Computer Display HDR IPS Gaming Monitor w/Premium Smart Cover
-        & Screen Protector, Speakers, for Laptop PC MAC Phone PS4 Xbox
-        Switch
-      </p>
-    </div>
+    <a href="/product/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
+      <img
+        src="${product._image}"
+        class="card-img-top"
+        alt="${product._name} image"
+      />
+      <div class="card-body">
+        <h5 class="card-title">
+          ${product._name}
+        </h5>
+        <p class="card-text">
+          ${product._price}$
+        </p>
+      </div>
+    </a>
   </li>
 `;
 };
