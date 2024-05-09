@@ -1,3 +1,4 @@
+// Return the HTML element of a product
 const getProductHTML = (product) => {
   return `
   <li class="card p-2 g-col-6" style="width: 18rem">
@@ -20,6 +21,7 @@ const getProductHTML = (product) => {
 `;
 };
 
+// Convert the new products lists fetched from API to HTML elements
 const insertNewProducts = (newProducts) => {
   const newProductsList = document.getElementById("new-products-list");
 
@@ -30,6 +32,7 @@ const insertNewProducts = (newProducts) => {
   });
 };
 
+// Convert the all products lists fetched from API to HTML elements
 const insertAllProducts = (products) => {
   const allProductsList = document.getElementById("all-products-list");
 
@@ -40,6 +43,7 @@ const insertAllProducts = (products) => {
   });
 };
 
+// Set the website, header and footer title of the store's name
 const setStoreTitle = (title) => {
   document.title += ` - ${title}'s store`;
 
@@ -47,6 +51,7 @@ const setStoreTitle = (title) => {
   document.getElementById("footer-store-title").innerHTML = title;
 };
 
+// Get the store id from the url (ex: https://example.com/store/?id=1)
 const getStoreId = () => {
   const queryString = window.location.search;
 
@@ -57,6 +62,7 @@ const getStoreId = () => {
   return storeId;
 };
 
+// Get the data of the store from the API
 const getStoreData = () => {
   const storeId = getStoreId();
 
