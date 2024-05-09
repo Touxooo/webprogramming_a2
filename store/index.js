@@ -40,26 +40,38 @@ const insertAllProducts = (products) => {
   });
 };
 
-const queryString = window.location.search;
+const setStoreTitle = (title) => {
+  document.title += ` - ${title}'s store`;
 
-const urlParams = new URLSearchParams(queryString);
+  document.getElementById("header-title").innerHTML += " - " + title;
+  document.getElementById("footer-store-title").innerHTML = title;
+};
 
-const storeId = urlParams.get("id");
+const getStoreId = () => {
+  const queryString = window.location.search;
 
-fetch(
-  `https://cosc2430-web-programming-full-stack-web.onrender.com/store/${storeId}`
-)
-  .then((res) => {
-    return res.json();
-  })
-  .then((data) => {
-    const title = data.store._name;
-    document.title += ` - ${title}'s store`;
+  const urlParams = new URLSearchParams(queryString);
 
-    document.getElementById("header-title").innerHTML += " - " + title;
-    document.getElementById("footer-store-title").innerHTML = title;
+  const storeId = urlParams.get("id");
 
-    insertNewProducts(data.newProducts);
-    insertAllProducts(data.products);
-  })
-  .catch((error) => console.log(error));
+  return storeId;
+};
+
+const getStoreData = () => {
+  const storeId = getStoreId();
+
+  fetch(
+    `https://cosc2430-web-programming-full-stack-web.onrender.com/store/${storeId}`
+  )
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      setStoreTitle(data.store._name);
+      insertNewProducts(data.newProducts);
+      insertAllProducts(data.products);
+    })
+    .catch((error) => console.log(error));
+};
+
+getStoreData();
