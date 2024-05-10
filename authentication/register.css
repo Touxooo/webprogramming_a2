@@ -4,7 +4,7 @@ body {
     border: none;
 }
 
-#registerForm > input {
+#registerForm input {
     width: 100%;
     height: 48px;
     padding: 0 10px;
@@ -15,43 +15,132 @@ body {
     background-color: rgb(233, 233, 233);
 }
 
-#registerForm > input::placeholder {
-    color:#adadad;
+.labels {
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    vertical-align: middle;
 }
 
-#registerForm > input[type="submit"] {
-    color: white;
-    font-size:16px;
-    background-color: rgb(54, 54, 54);
+#registerForm input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
 }
 
-#registerForm > input[type="checkbox"] {
-    display: none;
-}
 
-div h2 {
-    margin-bottom: 25px;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    width: 100px;
-    height: 40px;
-    float: right;
-    top: 20px;
-    text-align: center;
-    line-height: 40px;
+#countryDropdown,
+#storeDropdown {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
     box-sizing: border-box;
-    background-color: rgb(54, 54, 54);
     border: none;
+    margin-bottom: 16px;
     border-radius: 6px;
+    background-color: rgb(216, 216, 216);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-.a:hover,
-.a:focus {
-    color:black;
-    text-decoration: none;
+#countryDropdown:hover,
+#storeDropdown:hover,
+#fileUploadContainer:hover {
+    border: 2px solid black;
+}
+
+.registerBox {
+    margin-top: 50px;
+    max-width: 12005px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+}
+
+#fileUploadContainer {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#fileUploadContainer #fileInputLabel {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+  
+#fileUpload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
     cursor: pointer;
 }
+  
+#fileInputLabel {
+    pointer-events: none;
+}
+  
+
+/* .file-upload {
+    position: relative;
+    overflow: hidden;
+}
+
+.file-upload input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.file-upload-label {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+.file-upload-button {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.file-upload-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.file-upload {
+    width: 35%;
+    height: 48px;
+    margin-bottom: 16px;
+} */

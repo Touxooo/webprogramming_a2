@@ -10,7 +10,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="modal.css">
 </head>
 <body>
 <!-- Place the header in every pages -->
@@ -85,86 +85,21 @@
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <div id="iframeContainer">
-                            <iframe id="loginFrame" src="authentication/login.html" frameborder="0"></iframe>
+                            <div class="loginBox">
+                                <h2 class="loginHeading">Login</h2>
+                                <form method="post" action="url" id="loginForm">
+                                    <input type="email" name="userEmail" placeholder="Email">
+                                    <input type="password" name="userPassword" placeholder="Password">
+                                    <input type="submit" value="Login">
+                                </form>
+                                <a href="authentication/register.html" class="modalButtons">Register</a>
+                                <text> / </text>
+                                <a href="authentication/verification.html" class="modalButtons">Forgot password</a>
+                            </div>
+                            <!-- <iframe id="loginFrame" src="authentication/login.html" frameborder="0"></iframe> -->
                         </div>
                     </div>
                 </div>
-                <script>
-                    function closeModal() {
-                        var modal = document.getElementById('loginModal');
-                        modal.style.display = 'none';
-                        var loginFrame = document.getElementById('loginFrame');
-                    loginFrame.src = 'authentication/login.html';
-                    }
-
-                    document.getElementById('login').onclick = function() {
-                        document.getElementById('loginModal').style.display = 'block';
-                    };
-
-                    document.getElementsByClassName('close')[0].addEventListener('click', function() {
-                        closeModal();
-                    });
-
-                    window.onclick = function(event) {
-                    var modal = document.getElementById('loginModal');
-                    if (event.target == modal) {
-                        closeModal();
-                    }
-                    };
-                </script>
-                <style>
-                    .modal {
-                        display: none;
-                        position: fixed;
-                        z-index: 1;
-                        left: 0;
-                        top: 0;
-                        width: 100%;
-                        height: 100%;
-                        background-color: rgba(0, 0, 0, 0.5);
-                        overflow: auto;
-                    }
-
-                    .modal-content {
-                        background-color: #fefefe;
-                        margin: auto;
-                        padding: 20px;
-                        padding-top: 60px;
-                        border: 1px solid #888;
-                        width: 650px;
-                        height: 400px;
-                        position: relative;
-                        top: 50%;
-                        transform: translateY(-50%)
-                    }
-
-                    .close {
-                        color: #aaa;
-                        position: absolute;
-                        top: 20px;
-                        right: 20px;
-                        font-size: 28px;
-                        font-weight: bold;
-                    }
-
-                    .close:hover,
-                    .close:focus {
-                        color:black;
-                        text-decoration: none;
-                        cursor: pointer;
-                    }
-
-                    #iframeContainer {
-                        width: 100%;
-                        height: 100%;
-                    }
-
-                    #iframeContainer iframe {
-                        width: 100%;
-                        height: 100%;
-                        border: none;
-                    }
-                </style>
             </div>
         </div>
     </nav>
@@ -343,6 +278,7 @@
         © 2024 The Amazing Mall, Inc
     </p>
 </footer>
+<script src="modal.js"></script>
 <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
