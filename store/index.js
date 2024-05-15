@@ -73,6 +73,7 @@ const getStoreData = () => {
       return res.json();
     })
     .then((data) => {
+      console.log(data);
       setStoreTitle(data.store._name);
       insertNewProducts(data.newProducts);
       insertAllProducts(data.products);
