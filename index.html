@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="modal.css" />
+    <script src="homepage.js"></script>
   </head>
   <body>
     <!-- Place the header in every pages -->
@@ -115,7 +116,6 @@
                       >Forgot password</a
                     >
                   </div>
-                  <!-- <iframe id="loginFrame" src="authentication/login.html" frameborder="0"></iframe> -->
                 </div>
               </div>
             </div>
@@ -132,42 +132,7 @@
             <h2>New Products</h2>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_1.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 1"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 1
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $19.99 - Store 1
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_2.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 2"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 2
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $24.99 - Store 2
-                    </p>
-                  </div>
-                </div>
+                <ul id="new-products" class="grid gap-3 row"></ul>
               </div>
             </div>
           </div>
@@ -176,80 +141,7 @@
             <h2>Featured Products</h2>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_3.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 3"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 3
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $29.99 - Store 3
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_4.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 4"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 4
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $34.99 - Store 4
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_5.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 5"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 5
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $44.99 - Store 5
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="product_details/product_6.html">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Product 5"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Product 6
-                    </h5>
-                    <p class="card-text" style="text-align: center">
-                      $19.99 - Store 6
-                    </p>
-                  </div>
-                </div>
+                <ul id="feature-products" class="grid gap-3 row"></ul>
               </div>
             </div>
           </div>
@@ -258,91 +150,16 @@
             <h2>New Stores</h2>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="#">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Store 1"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Store Name
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="#">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Store 2"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Store Name
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="#">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top product-image"
-                      alt="Store 3"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Store Name
-                    </h5>
-                  </div>
-                </div>
+                <ul id="new-stores" class="grid gap-3 row"></ul>
               </div>
             </div>
           </div>
-
           <div class="col-md-12 mt-3">
             <br />
             <h2>Featured Stores</h2>
             <div class="row">
               <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="#">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top store-logo"
-                      alt="Store 4"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Store Name
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <div class="card h-100 border-0">
-                  <a href="#">
-                    <img
-                      src="src/sample_product.jpg"
-                      class="card-img-top store-logo"
-                      alt="Store 5"
-                    />
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">
-                      Store Name
-                    </h5>
-                  </div>
-                </div>
+                <ul id="feature-stores" class="grid gap-3 row"></ul>
               </div>
             </div>
           </div>
