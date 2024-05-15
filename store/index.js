@@ -81,4 +81,35 @@ const getStoreData = () => {
     .catch((error) => console.log(error));
 };
 
+const addProductCreateButton = async () => {
+  const access_token = localStorage.getItem("access_token");
+
+  if (access_token) {
+    try {
+      const res = await fetch(
+        "https://cosc2430-web-programming-full-stack-web.onrender.com/user",
+        {
+          headers: {
+            Authorization: `Bearer ${access_token}`,
+          },
+        }
+      );
+
+      const data = await res.json();
+
+      if (res.ok && data._store === getStoreId()) {
+        const main = document.getElementById("main");
+
+        main.insertAdjacentHTML(
+          "beforebegin",
+          `<a href="/store/add-product/?storeId=${getStoreId()}" class="btn btn-success mx-3">Add a product</a>`
+        );
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  }
+};
+
 getStoreData();
+addProductCreateButton();
