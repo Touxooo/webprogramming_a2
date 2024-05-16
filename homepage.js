@@ -1,7 +1,7 @@
 const getProductHTML = (product) => {
   return `
   <li class="card p-2 g-col-6" style="width: 18rem">
-    <a href="/prodect/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
+    <a href="/product/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
         src="${product._image}"
         class="card-img-top product-image"
