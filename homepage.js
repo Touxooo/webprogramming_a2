@@ -1,6 +1,5 @@
-
 const getProductHTML = (product) => {
-    return `
+  return `
   <li class="card p-2 g-col-6" style="width: 18rem">
     <a href="/prodect/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
@@ -23,7 +22,7 @@ const getProductHTML = (product) => {
 };
 
 const getStoreHTML = (store) => {
-    return `
+  return `
   <li class="card p-2 g-col-6" style="width: 18rem">
     <a href="/store/?id=${store._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
@@ -41,61 +40,58 @@ const getStoreHTML = (store) => {
 `;
 };
 const insertNewProducts = (newProducts) => {
-    const newProductsList = document.getElementById("new-products");
+  const newProductsList = document.getElementById("new-products");
 
-    newProducts.forEach((product) => {
-        const item = getProductHTML(product);
+  newProducts.forEach((product) => {
+    const item = getProductHTML(product);
 
-        newProductsList.insertAdjacentHTML("beforeend", item);
-    });
+    newProductsList.insertAdjacentHTML("beforeend", item);
+  });
 };
 
 const insertFeatureProducts = (featureProducts) => {
-    const featureProductsList = document.getElementById("feature-products");
+  const featureProductsList = document.getElementById("feature-products");
 
-    featureProducts.forEach((product) => {
-        const item = getProductHTML(product);
+  featureProducts.forEach((product) => {
+    const item = getProductHTML(product);
 
-        featureProductsList.insertAdjacentHTML("beforeend", item);
-    });
+    featureProductsList.insertAdjacentHTML("beforeend", item);
+  });
 };
 
 const insertNewStore = (newStore) => {
-    const newStoreList = document.getElementById("new-stores");
+  const newStoreList = document.getElementById("new-stores");
 
-    newStore.forEach((store) => {
-        const item = getStoreHTML(store);
+  newStore.forEach((store) => {
+    const item = getStoreHTML(store);
 
-        newStoreList.insertAdjacentHTML("beforeend", item);
-    });
+    newStoreList.insertAdjacentHTML("beforeend", item);
+  });
 };
 
-
 const insertFeatureStore = (featureStore) => {
-    const featureStoreList = document.getElementById("feature-stores");
+  const featureStoreList = document.getElementById("feature-stores");
 
-    featureStore.forEach((store) => {
-        const item = getStoreHTML(store);
+  featureStore.forEach((store) => {
+    const item = getStoreHTML(store);
 
-        featureStoreList.insertAdjacentHTML("beforeend", item);
-    });
+    featureStoreList.insertAdjacentHTML("beforeend", item);
+  });
 };
 
 const getHomePageData = () => {
-    fetch(
-        `https://cosc2430-web-programming-full-stack-web.onrender.com/home}`
-    )
-        .then((res) => {
-            return res.json();
-        })
-        .then((data) => {
-            console.log(data);
-            insertNewStore(data.newStore);
-            insertNewProducts(data.newProducts);
-            insertFeatureStore(data.featuredStore);
-            insertFeatureProducts(data.featuredProducts);
-        })
-        .catch((error) => console.log(error));
+  fetch(`https://cosc2430-web-programming-full-stack-web.onrender.com/home`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      console.log(data);
+      insertNewStore(data.newStore);
+      insertNewProducts(data.newProducts);
+      insertFeatureStore(data.featuredStore);
+      insertFeatureProducts(data.featuredProducts);
+    })
+    .catch((error) => console.log(error));
 };
 
 getHomePageData();
