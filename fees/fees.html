@@ -11,8 +11,9 @@
             crossorigin="anonymous"
     />
     <link href="fees.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../modal.css">
+    <script src="../modal.js"></script>
 </head>
-
 <body>
 <!-- Place the header in every pages -->
 <header>
@@ -81,7 +82,25 @@
                         <a class="nav-link" href="../contact/contact.html">Contact</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success">Login</button>
+                <button class="btn btn-outline-success" id="login">Login</button>
+                <div id="loginModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div id="iframeContainer">
+                            <div class="loginBox">
+                                <h2 class="loginHeading">Login</h2>
+                                <form method="post" action="url" id="loginForm">
+                                    <input type="email" name="userEmail" placeholder="Email">
+                                    <input type="password" name="userPassword" placeholder="Password">
+                                    <input type="submit" value="Login">
+                                </form>
+                                <a href="../authentication/register.html" class="modalButtons">Register</a>
+                                <text> / </text>
+                                <a href="../authentication/verification.html" class="modalButtons">Forgot password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
