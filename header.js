@@ -2,8 +2,6 @@ const setAuthButtonValues = () => {
   const access_token = localStorage.getItem("access_token");
   const navbarContent = document.getElementById("navbarSupportedContent");
 
-  console.log(navbarContent);
-
   if (access_token) {
     navbarContent.insertAdjacentHTML(
       "beforeend",
