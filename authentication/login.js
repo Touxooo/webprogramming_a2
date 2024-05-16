@@ -30,7 +30,7 @@ const loginUser = async () => {
     }
 
     localStorage.setItem("access_token", data.access_token);
-    history.go("/");
+    history.go(-1);
   } catch (e) {
     alert("An error occured");
     console.log(e);
