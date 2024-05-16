@@ -10,13 +10,15 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script src="index.js"></script>
   </head>
   <body>
     <!-- Place the header in every pages -->
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="homepage.html" id="header-title">
+          <!-- Set id on the header title to change it once the data of store are fetched in index.js -->
+          <a class="navbar-brand" href="#" id="header-title">
             <img
               src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
               alt="Logo"
@@ -40,15 +42,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="homepage.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="account/account.html">My Account</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -72,59 +66,25 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="fees/fees.html">Fees</a>
+                <a class="nav-link" href="#">Fees</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about_us/about_us.html">About Us</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="faq/faq.html">FAQs</a>
+                <a class="nav-link" href="#">FAQs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact/contact.html">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <button class="btn" id="authButton"></button>
-            <div id="loginModal" class="modal">
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <div id="iframeContainer">
-                  <div class="loginBox">
-                    <h2 class="loginHeading">Login</h2>
-                    <form method="post" action="url" id="loginForm">
-                      <input
-                        type="email"
-                        name="userEmail"
-                        placeholder="Email"
-                      />
-                      <input
-                        type="password"
-                        name="userPassword"
-                        placeholder="Password"
-                      />
-                      <input type="submit" value="Login" />
-                    </form>
-                    <a href="authentication/register.html" class="modalButtons"
-                      >Register</a
-                    >
-                    <text> / </text>
-                    <a
-                      href="authentication/verification.html"
-                      class="modalButtons"
-                      >Forgot password</a
-                    >
-                  </div>
-                  <!-- <iframe id="loginFrame" src="authentication/login.html" frameborder="0"></iframe> -->
-                </div>
-              </div>
-            </div>
+            <button class="btn btn-outline-success">Login</button>
           </div>
         </div>
       </nav>
-      <script src="../header.js"></script>
     </header>
     <!-- Make your page inside the main -->
-    <main id="main">
+    <main>
       <div>
         <h1 class="m-3">New products</h1>
         <!-- Set id on the new products list to insert new elements once the data of store are fetched in index.js -->
@@ -135,7 +95,6 @@
         <!-- Set id on the all products list to insert new elements once the data of store are fetched in index.js -->
         <ul id="all-products-list" class="grid gap-3 row"></ul>
       </div>
-      <script src="index.js"></script>
     </main>
     <!-- Place the footer in every pages -->
     <footer class="py-3 my-4">
