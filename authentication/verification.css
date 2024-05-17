@@ -5,11 +5,14 @@ body {
 }
 
 .verificationBox {
-    margin-top: 60px;;
+    margin-top: 150px;
+    max-width: 1200px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .emailVerification > input {
-     width: 100%;
+    width: 100%;
     height: 48px;
     padding: 0 10px;
     box-sizing: border-box;
