@@ -1,7 +1,3 @@
-const setLoginButtonEvent = () => {
-  const loginButton = document.getElementById("login");
-}
-
 const setAuthButtonValues = () => {
   const access_token = localStorage.getItem("access_token");
   const navbarContent = document.getElementById("navbarSupportedContent");
@@ -34,35 +30,14 @@ const setAuthButtonValues = () => {
 
     logoutButton.addEventListener("click", (e) => {
       localStorage.removeItem("access_token");
-      alert("Successfuly logout");
-      // setAuthButtonValues();
-      // document.getElementById("logged-nav").remove();
-      window.location.reload();
+      alert("Successfully logout");
+      setAuthButtonValues();
+      document.getElementById("logged-nav").remove();
     });
   } else {
     navbarContent.insertAdjacentHTML(
       "beforeend",
-      `
-      <button class="btn btn-outline-success" id="login">Login</button>
-      <div id="loginModal" class="modal">
-          <div class="modal-content">
-              <span class="close">&times;</span>
-              <div id="iframeContainer">
-                  <div class="loginBox">
-                      <h2 class="loginHeading">Login</h2>
-                      <form method="post" id="loginForm">
-                          <input type="text" name="username" placeholder="Username">
-                          <input type="password" name="password" placeholder="Password">
-                          <input type="submit" value="Login">
-                      </form>
-                      <a href="authentication/register.html" class="modalButtons">Register</a>
-                      <text> / </text>
-                      <a href="authentication/verification.html" class="modalButtons">Forgot password</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      `
+      `<a href="/authentication/login.html" class="btn btn-outline-success" id="loginButton">Login</a>`
     );
   }
 };
