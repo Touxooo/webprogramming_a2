@@ -17,7 +17,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #ffeba7 !important;
+    /*color: #ffeba7 !important;*/
     text-decoration: underline; }
 a:hover {
     color: #ffeba7;
@@ -32,6 +32,7 @@ a.more {
 
 .custom-navbar .navbar-brand {
     font-size: 32px;
+    color: #ffeba7 !important;
     font-weight: 600; }
 
 .custom-navbar .navbar-brand > span {

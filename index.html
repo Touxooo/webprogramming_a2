@@ -14,73 +14,32 @@
     <script src="homepage.js"></script>
   </head>
   <body>
+
     <!-- Place the header in every pages -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <img
-              src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
-              alt="Logo"
-              width="30"
-              height="30"
-              class="d-inline-block align-text-top"
-            />The Amazing Mall
+      <nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="/src/mall.png" alt="Logo" width="40" height="40" class="d-inline-block mb-2"/> The Amazing Mall<span>.</span>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
+            <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="active"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
               <!--                    <li class="nav-item"><a class="nav-link" href="account.html">My Account</a></li>-->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Browse
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Browse Stores by Name</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Browse Stores by Category</a
-                    >
-                  </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="#">Browse Stores by Name</a></li>
+                  <li><a class="dropdown-item" href="#">Browse Stores by Category</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../fees/fees.html">Fees</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../about_us/about_us.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../faq/faq.html">FAQs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../contact/contact.html">Contact</a>
-              </li>
+              <li><a class="nav-link" href="../fees/fees.html">Fees</a></li>
+              <li><a class="nav-link" href="../about_us/about_us.html">About Us</a></li>
+              <li><a class="nav-link" href="../faq/faq.html">FAQs</a></li>
+              <li><a class="nav-link" href="../contact/contact.html">Contact</a></li>
             </ul>
-
-            <!--                <button class="btn btn-outline-danger">Logout</button>-->
+            <!--               <button class="btn btn-outline-danger">Logout</button>-->
           </div>
         </div>
       </nav>
@@ -88,72 +47,70 @@
     </header>
     <!-- Make your page inside the main -->
     <main>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-12 mt-2">
             <h2>New Products</h2>
             <div class="row">
-              <div class="col-md-3 mb-3">
                 <ul id="new-products" class="grid gap-3 row"></ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 mt-3">
-            <br />
-            <h2>Featured Products</h2>
-            <div class="row">
-              <div class="col-md-3 mb-3">
-                <ul id="feature-products" class="grid gap-3 row"></ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 mt-3">
-            <br />
-            <h2>New Stores</h2>
-            <div class="row">
-              <div class="col-md-3 mb-3">
-                <ul id="new-stores" class="grid gap-3 row"></ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-12 mt-3">
-            <br />
-            <h2>Featured Stores</h2>
-            <div class="row">
-              <div class="col-md-3 mb-3">
-                <ul id="feature-stores" class="grid gap-3 row"></ul>
-              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="container">
+          <div class="col-md-12 mt-3">
+            <br />
+            <h2>Featured Products</h2>
+            <div class="row">
+                <ul id="feature-products" class="grid gap-3 row"></ul>
+            </div>
+          </div>
+      </div>
+
+      <div id="stars4"></div>
+      <div id="stars5"></div>
+      <div id="stars6"></div>
+
+      <div class="container">
+          <div class="col-md-12 mt-3">
+            <br />
+            <h2>New Stores</h2>
+            <div class="row">
+                <ul id="new-stores" class="grid gap-3 row"></ul>
+            </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="col-md-12 mt-3">
+            <br />
+            <h2>Featured Stores</h2>
+            <div class="row">
+                <ul id="feature-stores" class="grid gap-3 row"></ul>
+            </div>
+          </div>
+      </div>
+
     </main>
     <!-- Place the footer in every pages -->
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a
-            href="policies_center/copyright.html"
-            class="nav-link px-2 text-body-secondary"
-            >Copyright</a
-          >
+          <a href="policies_center/copyright.html" class="nav-link px-2 navbar-brand">Copyright</a>
         </li>
         <li class="nav-item">
-          <a
-            href="policies_center/ToS.html"
-            class="nav-link px-2 text-body-secondary"
-            >Terms Of Service</a
-          >
+          <a href="policies_center/ToS.html" class="nav-link px-2 navbar-brand">Terms Of Service</a>
         </li>
         <li class="nav-item">
-          <a
-            href="policies_center/privacy.html"
-            class="nav-link px-2 text-body-secondary"
-            >Privacy Policy</a
-          >
+          <a href="policies_center/privacy.html" class="nav-link px-2 navbar-brand">Privacy Policy</a>
         </li>
       </ul>
-      <p class="text-center text-body-secondary">
+      <p class="text-center navbar-brand">
         © 2024 The Amazing Mall, Inc
       </p>
     </footer>
