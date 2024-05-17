@@ -1,7 +1,7 @@
 const getProductHTML = (product) => {
   return `
 
-  <li class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
+  <div class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
     <a href="/product/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
         src="${product._image}"
@@ -18,13 +18,13 @@ const getProductHTML = (product) => {
         </p>
       </div>
     </a>
-  </li>
+  </div>
 `;
 };
 
 const getStoreHTML = (store) => {
   return `
-  <li class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
+  <div class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
     <a href="/store/?id=${store._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
         src="${store._logo}"
@@ -37,7 +37,7 @@ const getStoreHTML = (store) => {
         </h5>
       </div>
     </a>
-  </li>
+  </div>
 `;
 };
 const insertNewProducts = (newProducts) => {

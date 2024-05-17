@@ -97,8 +97,8 @@ a.more {
     .custom-navbar .custom-navbar-cta {
         margin-left: 40px !important; } }
 .custom-navbar .custom-navbar-cta li {
-    margin-left: 0px;
-    margin-right: 0px; }
+    margin-left: 0;
+    margin-right: 0; }
 .custom-navbar .custom-navbar-cta li:first-child {
     margin-right: 20px; }
 
