@@ -30,7 +30,7 @@ const setAuthButtonValues = () => {
 
     logoutButton.addEventListener("click", (e) => {
       localStorage.removeItem("access_token");
-      alert("Successfully logout");
+      alert("Successfuly logout");
       setAuthButtonValues();
       document.getElementById("logged-nav").remove();
     });

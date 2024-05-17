@@ -8,8 +8,6 @@ $(document).ready(function () {
 });
 
 const insertUserData = (data) => {
-  console.log(data);
-
   document.getElementById("firstname").innerHTML = data._firstname;
   document.getElementById("lastname").innerHTML = data._lastname;
   document.getElementById("email").innerHTML = data._email;
