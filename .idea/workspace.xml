@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[Add]">
-      <change afterPath="$PROJECT_DIR$/register/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sample/furni-1.0.0/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/furni-1.0.0/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sample/furni-1.0.0/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/furni-1.0.0/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sample/furni-1.0.0/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/furni-1.0.0/js/custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sample/furni-1.0.0/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sample/furni-1.0.0/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/cart/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/cart/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/thankyou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/modal.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +188,7 @@
       <workItem from="1715830073518" duration="2979000" />
       <workItem from="1715862887452" duration="7219000" />
       <workItem from="1715878081899" duration="41000" />
-      <workItem from="1715926511772" duration="8311000" />
+      <workItem from="1715926511772" duration="8488000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -381,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715833674757</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[Add]">
+      <option name="closed" value="true" />
+      <created>1715937694613</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715937694613</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,6 +394,7 @@
     <MESSAGE value="[Add] Add Edit Profile Page &amp; Config Payment Page" />
     <MESSAGE value="[Add] Update header" />
     <MESSAGE value="[Add] Sample For Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] Sample For Review" />
+    <MESSAGE value="[Add]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add]" />
   </component>
 </project>
