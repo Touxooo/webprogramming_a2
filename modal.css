@@ -102,6 +102,9 @@ a.more {
 .custom-navbar .custom-navbar-cta li:first-child {
     margin-right: 20px; }
 
+.product-title {
+    color: #ffeba7 !important;
+}
 /*.modal {*/
 /*    display: none;*/
 /*    position: fixed;*/

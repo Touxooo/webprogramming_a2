@@ -1,6 +1,7 @@
 const getProductHTML = (product) => {
   return `
-  <li class="card p-2 g-col-6" style="width: 18rem">
+
+  <li class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
     <a href="/product/?id=${product._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
         src="${product._image}"
@@ -8,11 +9,11 @@ const getProductHTML = (product) => {
         alt="${product._name} image"
       />
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center">
+        <h5 class="product-title mt-3" style="text-align: center">
           ${product._name}
           ${product._store}
         </h5>
-        <p class="card-text" style="text-align: center">
+        <p class="product-title mt-3" style="text-align: center">
           ${product._price}$
         </p>
       </div>
@@ -23,7 +24,7 @@ const getProductHTML = (product) => {
 
 const getStoreHTML = (store) => {
   return `
-  <li class="card p-2 g-col-6" style="width: 18rem">
+  <li class="col-12 col-md-4 col-lg-3 mb-5" style="width: 18rem">
     <a href="/store/?id=${store._id}" class="link-secondary link-offset-2 link-underline link-underline-opacity-0">
       <img
         src="${store._logo}"
@@ -31,7 +32,7 @@ const getStoreHTML = (store) => {
         alt="${store._name} image"
       />
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center">
+        <h5 class="product-title mt-3" style="text-align: center">
           ${store._name}
         </h5>
       </div>
