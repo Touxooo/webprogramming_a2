@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template Title</title>
+    <title>Shopping Cart Page</title>
+    <link rel="shortcut icon" href="../src/mall.png">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="../style.css" type="text/css"/>
@@ -13,80 +15,45 @@
 
 
   <body>
+  <div id="page-container">
+    <div id="content-wrap">
     <!-- Place the header in every pages -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <img
-              src="https://s3-alpha.figma.com/hub/file/2721803157/3f021816-bde1-4634-80b3-52d7f762bc6b-cover.png"
-              alt="Logo"
-              width="30"
-              height="30"
-              class="d-inline-block align-text-top"
-            />The Amazing Mall
+      <nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="/src/mall.png" alt="Logo" width="40" height="40" class="d-inline-block mb-2"/> The Amazing Mall<span>.</span>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
+            <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="active"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
               <!--                    <li class="nav-item"><a class="nav-link" href="account.html">My Account</a></li>-->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Browse
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Browse Stores by Name</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"
-                      >Browse Stores by Category</a
-                    >
-                  </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse</a>
+                <ul class="dropdown-menu"><li><a class="dropdown-item" href="#">Browse Stores by Name</a></li>
+                  <li><a class="dropdown-item" href="#">Browse Stores by Category</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../fees/fees.html">Fees</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../about_us/about_us.html"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../faq/faq.html">FAQs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../contact/contact.html">Contact</a>
-              </li>
+              <li><a class="nav-link" href="../fees/fees.html">Fees</a></li>
+              <li><a class="nav-link" href="../about_us/about_us.html">About Us</a></li>
+              <li><a class="nav-link" href="../faq/faq.html">FAQs</a></li>
+              <li><a class="nav-link" href="../contact/contact.html">Contact</a></li>
             </ul>
-
-            <!--                <button class="btn btn-outline-danger">Logout</button>-->
+            <!--               <button class="btn btn-outline-danger">Logout</button>-->
           </div>
         </div>
       </nav>
-      <script src="/header.js"></script>
+      <script src="../header.js"></script>
     </header>
     <!-- Make your page inside the main -->
     <main class="page">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+
       <section class="shopping-cart dark">
         <div class="container">
           <div class="before-footer-section">
@@ -94,11 +61,11 @@
               <h1>Shopping Cart</h1>
               <h5>Congratulations on curating your perfect selection! You're just a step away from making these fantastic choices yours.</h5>
             </div>
-            <div class="container">
+            <div class="container form-group">
               <div class="row mb-5">
                 <form class="col-md-12" method="post">
                   <div class="site-blocks-table">
-                    <table class="table">
+                    <table class="table table-dark" id="table">
                       <thead>
                       <tr>
                         <th class="product-thumbnail">Image</th>
@@ -116,10 +83,10 @@
                           <img src="../src/sample_product.jpg"  alt="Image" class="img-fluid">
                         </td>
                         <td class="product-name">
-                          <h2 class="h5 text-black">Product 1</h2>
+                          <h2 class="h5">Product 1</h2>
                         </td>
                         <td>$49.00</td>
-                        <td>
+                        <td class="justify-content-center">
                           <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
                             <div class="input-group-prepend">
                               <button class="btn btn-outline-black decrease" type="button">&minus;</button>
@@ -134,12 +101,16 @@
                         <td><a href="#" class="btn btn-black btn-sm">X</a></td>
                       </tr>
 
+                      <div id="stars4"></div>
+                      <div id="stars5"></div>
+                      <div id="stars6"></div>
+
                       <tr data-product-id="product2">
                         <td class="product-thumbnail">
                           <img src="../src/sample_product.jpg" alt="Image" class="img-fluid">
                         </td>
                         <td class="product-name">
-                          <h2 class="h5 text-black">Product 2</h2>
+                          <h2 class="h5">Product 2</h2>
                         </td>
                         <td>$49.00</td>
                         <td>
@@ -170,7 +141,7 @@
                       <button class="btn btn-black btn-sm btn-block">Update Cart</button>
                     </div>
                     <div class="col-md-6">
-                      <button class="btn btn-outline-black btn-sm btn-block">Continue Shopping</button>
+                     <a href="../index.html"><button  class="btn btn-outline-black btn-sm btn-block">Continue Shopping</button></a>
                     </div>
                   </div>
                   <div class="row">
@@ -191,23 +162,23 @@
                     <div class="col-md-7">
                       <div class="row">
                         <div class="col-md-12 text-right border-bottom mb-5">
-                          <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                          <h3 class=" h4 text-uppercase">Cart Totals</h3>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col-md-6">
-                          <span class="text-black">Subtotal</span>
+                          <span class="">Subtotal</span>
                         </div>
                         <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
+                          <strong class="">$230.00</strong>
                         </div>
                       </div>
                       <div class="row mb-5">
                         <div class="col-md-6">
-                          <span class="text-black">Total</span>
+                          <span>Total</span>
                         </div>
                         <div class="col-md-6 text-right">
-                          <strong class="text-black">$230.00</strong>
+                          <strong>$230.00</strong>
                         </div>
                       </div>
 
@@ -224,43 +195,31 @@
           </div>
         </div>
       </section>
+
+
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </main>
     <!-- Place the footer in every pages -->
-    <footer class="py-3 my-4">
+    <footer class="footer py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
-          <a
-            href="../policies_center/copyright.html"
-            class="nav-link px-2 text-body-secondary"
-            >Copyright</a
-          >
+          <a href="policies_center/copyright.html" class="nav-link px-2 navbar-brand">Copyright</a>
         </li>
         <li class="nav-item">
-          <a
-            href="../policies_center/ToS.html"
-            class="nav-link px-2 text-body-secondary"
-            >Terms Of Service</a
-          >
+          <a href="policies_center/ToS.html" class="nav-link px-2 navbar-brand">Terms Of Service</a>
         </li>
         <li class="nav-item">
-          <a
-            href="../policies_center/privacy.html"
-            class="nav-link px-2 text-body-secondary"
-            >Privacy Policy</a
-          >
+          <a href="policies_center/privacy.html" class="nav-link px-2 navbar-brand">Privacy Policy</a>
         </li>
       </ul>
-      <p class="text-center text-body-secondary">
+      <p class="text-center navbar-brand">
         © 2024 The Amazing Mall, Inc
       </p>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="cart.js"></script>
 
   </body>

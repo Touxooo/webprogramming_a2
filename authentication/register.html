@@ -382,17 +382,17 @@
             />
           </div>
           <div class="labels">
-            <span>Account type: </span>
-            <label for="storeOwner">Store Owner</label>
-            <input type="radio" name="accountType" value="storeOwner" />
-            <label for="shopper">Shopper</label>
-            <input type="radio" name="accountType" value="shopper" />
-          </div>
+          <span>Account type: </span>
+          <label for="storeOwner">Store Owner</label>
+          <input id="storeOwner" type="radio" name="accountType" value="storeOwner"/>
+          <label id="shopper" for="shopper">Shopper</label>
+          <input type="radio" name="accountType" value="shopper"/>
+        </div>
           <div id="storeOnwerInputs" style="display: none">
             <input
-              type="text"
-              name="business_name"
-              placeholder="Business name"
+                    type="text"
+                    name="business_name"
+                    placeholder="Business name"
             />
             <input type="text" name="store_name" placeholder="Store name" />
             <select name="store_category" id="storeDropdown">

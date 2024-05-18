@@ -82,7 +82,7 @@ h1 {
     text-align: left;
     padding-left: 10px;
 }
-  
+
 #fileUpload {
     position: absolute;
     top: 0;
@@ -92,7 +92,7 @@ h1 {
     opacity: 0;
     cursor: pointer;
 }
-  
+
 #fileInputLabel {
     pointer-events: none;
 }
