@@ -406,6 +406,18 @@
               <option value="petStore">Pet store</option>
               <option value="toyStore">Toy store</option>
             </select>
+            <div id="fileUploadContainer2">
+              <label for="fileUpload2" id="fileInputLabel2"
+                >Click to upload store logo</label
+              >
+              <input
+                type="file"
+                id="fileUpload2"
+                name="store_logo"
+                accept="image/*"
+                onchange="displayFileName2()"
+              />
+            </div>
           </div>
           <input type="submit" value="Register" />
         </form>

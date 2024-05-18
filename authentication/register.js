@@ -26,6 +26,17 @@ function displayFileName() {
   }
 }
 
+function displayFileName2() {
+  const fileInput = document.getElementById("fileUpload2");
+  const fileNameDisplay = document.getElementById("fileInputLabel2");
+
+  if (fileInput.files.length > 0) {
+    fileNameDisplay.textContent = fileInput.files[0].name;
+  } else {
+    fileNameDisplay.textContent = "Click to upload store logo";
+  }
+}
+
 document
   .getElementById("registerForm")
   .addEventListener("submit", function (event) {
