@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us/about_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/authentication/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/thankyou.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/thankyou.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fees/fees.html" beforeDir="false" afterPath="$PROJECT_DIR$/fees/fees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policies_center/ToS.html" beforeDir="false" afterPath="$PROJECT_DIR$/policies_center/ToS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policies_center/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/policies_center/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/policies_center/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/policies_center/privacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/register/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/register/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +189,7 @@
       <workItem from="1715878081899" duration="41000" />
       <workItem from="1715926511772" duration="8488000" />
       <workItem from="1715937852800" duration="21671000" />
-      <workItem from="1716001885427" duration="6325000" />
+      <workItem from="1716001885427" duration="6638000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -426,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715942007160</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716009256235</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716009256235</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +436,7 @@
     <MESSAGE value="[Add] Update header" />
     <MESSAGE value="[Add] Sample For Review" />
     <MESSAGE value="[Add]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add]" />
+    <MESSAGE value="[Add] CSS FIXED" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] CSS FIXED" />
   </component>
 </project>
