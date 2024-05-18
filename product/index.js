@@ -6,6 +6,7 @@ const getProductHTML = (product) => {
       src="${product._image}"
       class="product-image"
       alt="${product._name}"
+      style="width: 250px; height: 250px; object-fit: cover;"
     />
   </div>
   <div class="layout-description">
