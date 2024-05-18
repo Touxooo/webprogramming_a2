@@ -48,7 +48,8 @@ body {
 
 #countryDropdown:hover,
 #storeDropdown:hover,
-#fileUploadContainer:hover {
+#fileUploadContainer:hover,
+#fileUploadContainer2:hover {
     border: 2px solid black;
 }
 
@@ -65,7 +66,8 @@ h1 {
     margin: 50px;
 }
 
-#fileUploadContainer {
+#fileUploadContainer,
+#fileUploadContainer2 {
     position: relative;
     width: 100%;
     height: 48px;
@@ -77,13 +79,15 @@ h1 {
     justify-content: center;
   }
 
-#fileUploadContainer #fileInputLabel {
+#fileUploadContainer #fileInputLabel,
+#fileUploadContainer2 #fileInputLabel2 {
     flex: 1;
     text-align: left;
     padding-left: 10px;
 }
 
-#fileUpload {
+#fileUpload,
+#fileUpload2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -93,6 +97,7 @@ h1 {
     cursor: pointer;
 }
 
-#fileInputLabel {
+#fileInputLabel
+#fileInputLabel2 {
     pointer-events: none;
 }
