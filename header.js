@@ -1,6 +1,8 @@
 const setAuthButtonValues = () => {
   const access_token = localStorage.getItem("access_token");
   const navbarContent = document.getElementById("navbarSupportedContent");
+  var registerAbsolutePath = "/authentication/register.html";
+  var verificationAbsolutePath = "/authentication/verification.html";
 
   if (access_token) {
     navbarContent.insertAdjacentHTML(
@@ -51,9 +53,9 @@ const setAuthButtonValues = () => {
                           <input type="password" name="password" placeholder="Password">
                           <input type="submit" value="Login">
                       </form>
-                      <a href="authentication/register.html" class="modalButtons">Register</a>
+                      <a href="${registerAbsolutePath}" class="modalButtons">Register</a>
                       <text> / </text>
-                      <a href="authentication/verification.html" class="modalButtons">Forgot password</a>
+                      <a href="${verificationAbsolutePath}" class="modalButtons">Forgot password</a>
                   </div>
               </div>
           </div>
