@@ -30,7 +30,7 @@ const setAuthButtonValues = () => {
 
     logoutButton.addEventListener("click", (e) => {
       localStorage.removeItem("access_token");
-      alert("Successfuly logout");
+      alert("Successfully logout");
       // setAuthButtonValues();
       // document.getElementById("logged-nav").remove();
       window.location.reload();
@@ -72,7 +72,7 @@ const setAuthButtonValues = () => {
 
 //   if (access_token) {
 //     localStorage.removeItem("access_token");
-//     alert("Successfuly logout");
+//     alert("Successfully logout");
 //   } else {
 //     location.replace("/authentication/login.html");
 //   }
