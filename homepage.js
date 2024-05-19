@@ -11,7 +11,6 @@ const getProductHTML = (product) => {
       <div class="card-body">
         <h5 class="product-title mt-3" style="text-align: center">
           ${product._name}
-          ${product._store}
         </h5>
         <p class="product-title mt-3" style="text-align: center">
           ${product._price}$

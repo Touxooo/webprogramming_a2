@@ -54,7 +54,7 @@
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                  <li>
+                  <li class="active">
                     <a
                       class="nav-link active"
                       aria-current="page"
@@ -107,17 +107,12 @@
                       ><img src="/src/cart.svg" width="25" height="25"
                     /></a>
                   </li>
-                  <li>
-                    <a class="nav-link" href="/"
-                      ><img src="/src/logout.svg" width="25" height="25"
-                    /></a>
-                  </li>
                 </ul>
                 <!--               <button class="btn btn-outline-danger">Logout</button>-->
               </div>
             </div>
           </nav>
-          <!--      <script src="../header.js"></script>-->
+          <script src="../header.js"></script>
         </header>
         <!-- Make your page inside the main -->
         <main class="page">
@@ -150,7 +145,7 @@
                               <th class="product-remove">Remove</th>
                             </tr>
                           </thead>
-                          <tbody>
+                          <tbody id="products-list-body">
                             <div id="stars4"></div>
                             <div id="stars5"></div>
                             <div id="stars6"></div>
@@ -237,7 +232,7 @@
                               <span class="">Subtotal</span>
                             </div>
                             <div class="col-md-6 text-right">
-                              <strong class="">$230.00</strong>
+                              <strong class="" id="subtotal">$230.00</strong>
                             </div>
                           </div>
                           <div class="row mb-5">
@@ -245,7 +240,7 @@
                               <span>Total</span>
                             </div>
                             <div class="col-md-6 text-right">
-                              <strong>$230.00</strong>
+                              <strong id="total">$230.00</strong>
                             </div>
                           </div>
 
