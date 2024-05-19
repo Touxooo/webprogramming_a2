@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dustin.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/martin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minwoo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thomas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tony.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us/about_us.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_us/about_us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_us/src/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/account.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/editaccount.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/checkout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/thankyou.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/faq.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fees/fees.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +189,7 @@
       <workItem from="1715926511772" duration="8488000" />
       <workItem from="1715937852800" duration="21671000" />
       <workItem from="1716001885427" duration="22973000" />
-      <workItem from="1716106492309" duration="1951000" />
+      <workItem from="1716106492309" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -468,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716028061319</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716108629281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716108629281</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
