@@ -30,7 +30,7 @@ const loginUser = async () => {
     }
 
     localStorage.setItem("access_token", data.access_token);
-    location.replace("/account");
+    location.replace("/");
   } catch (e) {
     alert("An error occured");
     console.log(e);
