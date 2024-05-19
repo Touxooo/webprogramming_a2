@@ -559,3 +559,8 @@ footer {
     pointer-events: none;
 }
 
+img{
+    max-width: 238px;
+    max-height: 238px;
+    object-fit: cover;
+}
