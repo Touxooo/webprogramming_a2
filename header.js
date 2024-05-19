@@ -9,17 +9,17 @@ const setAuthButtonValues = () => {
     <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5" id="logged-nav">
     <li>
       <a class="nav-link" href="/account">
-        <img src="/src/user.png" width="23" height="23" />
+        <img src="/src/user.svg" width="23" height="23" />
       </a>
     </li>
     <li>
       <a class="nav-link" href="/cart">
-        <img src="/src/shopping-cart.png" width="23" height="23" />
+        <img src="/src/cart.svg" width="23" height="23" />
       </a>
     </li>
     <li>
       <a class="nav-link" id="logoutButton">
-        <img src="/src/exit.png" width="23" height="23" />
+        <img src="/src/logout.svg" width="23" height="23" />
       </a>
     </li>
   </ul>
@@ -30,7 +30,7 @@ const setAuthButtonValues = () => {
 
     logoutButton.addEventListener("click", (e) => {
       localStorage.removeItem("access_token");
-      alert("Successfuly logout");
+      alert("Successfully logout");
       // setAuthButtonValues();
       // document.getElementById("logged-nav").remove();
       window.location.reload();
@@ -72,7 +72,7 @@ const setAuthButtonValues = () => {
 
 //   if (access_token) {
 //     localStorage.removeItem("access_token");
-//     alert("Successfuly logout");
+//     alert("Successfully logout");
 //   } else {
 //     location.replace("/authentication/login.html");
 //   }

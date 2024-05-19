@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="[Add] CSS FIXED">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.js" afterDir="false" />
-    </list>
+    <list default="true" id="ea81ec09-f758-4f07-a4d1-ab70b45cd9f2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +86,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ADMIN/WebstormProjects/webprogramming_a2/Sample/furni-1.0.0",
+    "last_opened_file_path": "C:/Users/ADMIN/WebstormProjects/webprogramming_a2/src",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -104,6 +100,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\src" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\Sample\furni-1.0.0" />
       <recent name="C:\Users\ADMIN\WebstormProjects\webprogramming_a2\Sample\furni-1.0.0\images" />
     </key>
@@ -191,7 +188,8 @@
       <workItem from="1715878081899" duration="41000" />
       <workItem from="1715926511772" duration="8488000" />
       <workItem from="1715937852800" duration="21671000" />
-      <workItem from="1716001885427" duration="20552000" />
+      <workItem from="1716001885427" duration="22973000" />
+      <workItem from="1716106492309" duration="3284000" />
     </task>
     <task id="LOCAL-00001" summary="[CHANGE] Index with mall_homepage.html, [ADD] Path link">
       <option name="closed" value="true" />
@@ -441,7 +439,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716022938029</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716028061319</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716028061319</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716108629281</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716108629281</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716108850657</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1716108850657</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716109078903</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1716109078903</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[Add] CSS FIXED">
+      <option name="closed" value="true" />
+      <created>1716109750131</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1716109750131</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
