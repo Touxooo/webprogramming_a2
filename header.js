@@ -1,8 +1,8 @@
 const setAuthButtonValues = () => {
   const access_token = localStorage.getItem("access_token");
   const navbarContent = document.getElementById("navbarSupportedContent");
-  var registerAbsolutePath = "/authentication/register.html";
-  var verificationAbsolutePath = "/authentication/verification.html";
+  var registerAbsolutePath = "authentication/register.html";
+  var verificationAbsolutePath = "authentication/verification.html";
 
   if (access_token) {
     navbarContent.insertAdjacentHTML(
